@@ -89,4 +89,14 @@
             android:layout_height="fill_parent"
             android:src="@drawable/heart2"/>
     </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gomb_minusz"
+        android:layout_centerHorizontal="true"
+        android:text="Újrakezd"
+        android:textSize="30dp"
+        android:id="@+id/gomb_ujrakezd"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_orange_light"/>
 </RelativeLayout>
